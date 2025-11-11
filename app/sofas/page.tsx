@@ -12,7 +12,7 @@ const sofas = [
     description: "Sleek and sophisticated sofa perfect for contemporary living spaces",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
-    price: "$1,299",
+    price: "Da1,299",
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const sofas = [
     description: "Spacious L-shaped sectional for comfort and style",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
-    price: "$1,899",
+    price: "Da1,899",
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const sofas = [
     description: "Perfect two-seater for cozy spaces and apartments",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
-    price: "$899",
+    price: "Da899",
   },
   {
     id: 4,
@@ -36,7 +36,7 @@ const sofas = [
     description: "Convertible sofa bed with premium comfort features",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
-    price: "$1,599",
+    price: "Da1,599",
   },
 ]
 

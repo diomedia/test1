@@ -12,7 +12,7 @@ const sleepingRooms = [
     description: "Contemporary platform bed with clean lines and durability",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
-    price: "$1,599",
+    price: "Da1,599",
   },
   {
     id: 5,
@@ -20,7 +20,7 @@ const sleepingRooms = [
     description: "Queen-size bed with built-in drawer storage and premium mattress",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
-    price: "$1,899",
+    price: "Da1,899",
   },
   {
     id: 6,
@@ -28,7 +28,7 @@ const sleepingRooms = [
     description: "Sleek low-profile bed frame with solid wood construction",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
-    price: "$1,299",
+    price: "Da1,299",
   },
   {
     id: 7,
@@ -36,7 +36,7 @@ const sleepingRooms = [
     description: "Complete bedroom ensemble with bed, nightstands, and dresser",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
-    price: "$3,499",
+    price: "Da3,499",
   },
 ]
 

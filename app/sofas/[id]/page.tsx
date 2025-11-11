@@ -23,7 +23,7 @@ const sofas: Product[] = [
   {
     id: 1,
     name: "Minimalist Sofa",
-    price: "$1,299",
+    price: "Da1,299",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
     description: "Sleek and sophisticated sofa perfect for contemporary living spaces",
@@ -34,7 +34,7 @@ const sofas: Product[] = [
   {
     id: 2,
     name: "Modern Sectional",
-    price: "$1,899",
+    price: "Da1,899",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
     description: "Spacious L-shaped sectional for comfort and style",
@@ -45,7 +45,7 @@ const sofas: Product[] = [
   {
     id: 3,
     name: "Contemporary Loveseat",
-    price: "$899",
+    price: "Da899",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
     description: "Perfect two-seater for cozy spaces and apartments",
@@ -56,7 +56,7 @@ const sofas: Product[] = [
   {
     id: 4,
     name: "Luxury Sofa Bed",
-    price: "$1,599",
+    price: "Da1,599",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
     description: "Convertible sofa bed with premium comfort features",

@@ -19,7 +19,7 @@ const allProducts: Product[] = [
   {
     id: 1,
     name: "Sofa Minimaliste",
-    price: "$1,299",
+    price: "Da1,299",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
     description: "Canapé épuré et sophistiqué parfait pour les espaces de vie contemporains",
@@ -28,7 +28,7 @@ const allProducts: Product[] = [
   {
     id: 2,
     name: "Chaise Exécutive",
-    price: "$799",
+    price: "Da799",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
     description: "Chaise ergonomique premium conçue pour le confort et le style",
@@ -37,7 +37,7 @@ const allProducts: Product[] = [
   {
     id: 3,
     name: "Table Basse",
-    price: "$499",
+    price: "Da499",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
     description: "Table basse élégante en bois au design minimaliste",
@@ -46,7 +46,7 @@ const allProducts: Product[] = [
   {
     id: 4,
     name: "Lit Plateforme",
-    price: "$1,599",
+    price: "Da1,599",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
     description: "Lit plateforme contemporain aux lignes épurées et durabilité",
@@ -55,7 +55,7 @@ const allProducts: Product[] = [
   {
     id: 5,
     name: "Étagères Murales",
-    price: "$349",
+    price: "Da349",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
     description: "Étagères flottantes pour maximiser l'espace et le style",
@@ -64,7 +64,7 @@ const allProducts: Product[] = [
   {
     id: 6,
     name: "Luminaires Suspendus",
-    price: "$249",
+    price: "Da249",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
     description: "Solution d'éclairage ambiant pour tout intérieur moderne",
@@ -73,7 +73,7 @@ const allProducts: Product[] = [
   {
     id: 7,
     name: "Fauteuil Lounge",
-    price: "$899",
+    price: "Da899",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
     description: "Fauteuil confortable et élégant pour n'importe quelle pièce",
@@ -82,7 +82,7 @@ const allProducts: Product[] = [
   {
     id: 8,
     name: "Buffet",
-    price: "$1,199",
+    price: "Da1,199",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
     description: "Solution de rangement avec esthétique contemporaine",
@@ -91,7 +91,7 @@ const allProducts: Product[] = [
   {
     id: 9,
     name: "Canapé Luxury Bleu",
-    price: "$2,499",
+    price: "Da2,499",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
     description: "Canapé premium en velours avec accoudoirs en or",
@@ -100,7 +100,7 @@ const allProducts: Product[] = [
   {
     id: 10,
     name: "Chambre Complète",
-    price: "$4,999",
+    price: "Da4,999",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
     description: "Ensemble complet de chambre avec design contemporain",

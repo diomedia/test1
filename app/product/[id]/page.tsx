@@ -24,7 +24,7 @@ const products: Product[] = [
   {
     id: 1,
     name: "Minimalist Sofa",
-    price: "$1,299",
+    price: "Da1,299",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
     description: "Sleek and sophisticated sofa perfect for contemporary living spaces",
@@ -35,7 +35,7 @@ const products: Product[] = [
   {
     id: 2,
     name: "Executive Chair",
-    price: "$799",
+    price: "Da799",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
     description: "Premium ergonomic chair designed for comfort and style",
@@ -46,7 +46,7 @@ const products: Product[] = [
   {
     id: 3,
     name: "Coffee Table",
-    price: "$499",
+    price: "Da499",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
     description: "Elegant wooden coffee table with minimalist design",
@@ -57,7 +57,7 @@ const products: Product[] = [
   {
     id: 4,
     name: "Platform Bed",
-    price: "$1,599",
+    price: "Da1,599",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
     description: "Contemporary platform bed with clean lines and durability",
@@ -68,7 +68,7 @@ const products: Product[] = [
   {
     id: 5,
     name: "Wall Shelving",
-    price: "$349",
+    price: "Da349",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
     description: "Floating shelves to maximize space and style",
@@ -79,7 +79,7 @@ const products: Product[] = [
   {
     id: 6,
     name: "Pendant Lights",
-    price: "$249",
+    price: "Da249",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
     description: "Ambient lighting solution for any modern interior",
@@ -90,7 +90,7 @@ const products: Product[] = [
   {
     id: 7,
     name: "Lounge Chair",
-    price: "$899",
+    price: "Da899",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
     description: "Comfortable and stylish accent chair for any room",
@@ -101,7 +101,7 @@ const products: Product[] = [
   {
     id: 8,
     name: "Sideboard",
-    price: "$1,199",
+    price: "Da1,199",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
     description: "Storage solution with contemporary aesthetic appeal",
@@ -112,7 +112,7 @@ const products: Product[] = [
   {
     id: 9,
     name: "Canapé Sectionnelle",
-    price: "$1,899",
+    price: "Da1,899",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
     description: "Spacious sectional sofa perfect for modern living spaces",
@@ -123,7 +123,7 @@ const products: Product[] = [
   {
     id: 10,
     name: "Table de Salle à Manger",
-    price: "$1,399",
+    price: "Da1,399",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
     description: "Elegant dining table for family gatherings and entertaining",
@@ -134,7 +134,7 @@ const products: Product[] = [
   {
     id: 11,
     name: "Bureau Contemporain",
-    price: "$649",
+    price: "Da649",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
     description: "Functional workspace with minimalist contemporary design",
@@ -145,7 +145,7 @@ const products: Product[] = [
   {
     id: 12,
     name: "Armoire Moderne",
-    price: "$1,299",
+    price: "Da1,299",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
     description: "Modern wardrobe storage for bedroom or living room",
@@ -156,7 +156,7 @@ const products: Product[] = [
   {
     id: 13,
     name: "Oak Floating Shelf",
-    price: "$599",
+    price: "Da599",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
     description: "Solid oak floating shelf for elegant display",
@@ -167,7 +167,7 @@ const products: Product[] = [
   {
     id: 14,
     name: "Luxury Bar Stool",
-    price: "$449",
+    price: "Da449",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
     description: "Premium leather bar stool with chrome base",
@@ -178,7 +178,7 @@ const products: Product[] = [
   {
     id: 15,
     name: "Console Table",
-    price: "$789",
+    price: "Da789",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
     description: "Contemporary console table for elegant entryways",
@@ -189,7 +189,7 @@ const products: Product[] = [
   {
     id: 16,
     name: "Wall Mounted TV Unit",
-    price: "$1,099",
+    price: "Da1,099",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg",
     description: "Modern wall-mounted TV unit with integrated storage",

@@ -32,10 +32,10 @@ export default function ContactPage() {
   }
 
   return (
-    <main className="min-h-screen bg-white">
+    <main className="min-h-screen bg-[#f5f1ed]">
       <Header />
 
-      <section className="pt-32 pb-16">
+      <section className="pt-32 pb-16 bg-[#f5f1ed]">
         <div className="max-w-7xl mx-auto px-6">
           {/* Header */}
           <div className="text-center mb-16">
