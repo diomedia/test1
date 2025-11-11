@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vola - Meubles Premium</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <nav class="navbar homepage" id="navbar">
+            <!-- Logo -->
+            <div class="logo">
+                <div class="logo-icon">V</div>
+                <span class="logo-text">Vola</span>
+            </div>
+
+            <!-- Desktop Navigation -->
+            <div class="nav-menu desktop">
+                <a href="/all-products.html" class="nav-link">Produits</a>
+                <a href="#process" class="nav-link">Notre Processus</a>
+                <a href="/contact.html" class="nav-link">Contact</a>
+            </div>
+
+            <!-- Right Side Actions -->
+            <div class="nav-actions">
+                <button class="cart-btn">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="9" cy="21" r="1"></circle>
+                        <circle cx="20" cy="21" r="1"></circle>
+                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                    </svg>
+                </button>
+                <a href="/contact.html">
+                    <button class="contact-btn">Nous Contacter</button>
+                </a>
+                <button class="menu-toggle" id="menuToggle">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="mobile-menu" id="mobileMenu">
+                <a href="/all-products.html" class="nav-link">Produits</a>
+                <a href="#process" class="nav-link">Notre Processus</a>
+                <a href="/contact.html" class="nav-link">Contact</a>
+                <a href="/contact.html">
+                    <button class="contact-btn">Nous Contacter</button>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main style="padding-top: 80px;">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-background" style="background-image: url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%208%20nov.%202025%2C%2016_52_02-58aR3ivw7SRjNIpV7B6kudRoWQqbRl.png')">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="hero-content">
+                <h1 class="hero-title">Meubles Uniques pour Espaces Modernes</h1>
+                <p class="hero-subtitle">Découvrez des meubles magnifiquement conçus qui transforment votre espace en un sanctuaire de style et de confort.</p>
+                <a href="/contact.html">
+                    <button class="cta-button">Nous Contacter</button>
+                </a>
+            </div>
+        </section>
+
+        <!-- Showcase Section -->
+        <section class="showcase">
+            <div class="container">
+                <div class="showcase-grid">
+                    <!-- Sofas Card -->
+                    <a href="/sofas.html" style="text-decoration: none; color: inherit;">
+                        <div class="showcase-card">
+                            <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg" alt="Collection premium de sofas" class="showcase-image">
+                            <div class="showcase-overlay">
+                                <p class="showcase-text">Sofas</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Sleeping Room Card -->
+                    <a href="/sleeping-rooms.html" style="text-decoration: none; color: inherit;">
+                        <div class="showcase-card">
+                            <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Interior%20Design%20Clipart-s1hTxHLyMmmCU1pkY1mGrI94o3kaLC.jpg" alt="Collection élégante de chambres" class="showcase-image">
+                            <div class="showcase-overlay">
+                                <p class="showcase-text">Chambre</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories Section -->
+        <section class="categories" id="process">
+            <div class="container narrow">
+                <div style="text-align: center;">
+                    <h2 class="section-title">Catégorie</h2>
+                    <div class="section-title-divider"></div>
+                </div>
+
+                <div class="categories-grid">
+                    <div class="category-card">
+                        <div class="category-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M15 3H9c-1 0-2 1-2 2v2H4c-1 0-2 1-2 2v10c0 1 1 2 2 2h16c1 0 2-1 2-2V9c0-1-1-2-2-2h-3V5c0-1-1-2-2-2z"></path>
+                            </svg>
+                        </div>
+                        <p class="category-label">Chaises</p>
+                    </div>
+                    <a href="/sofas.html" style="text-decoration: none; color: inherit;">
+                        <div class="category-card">
+                            <div class="category-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M6 5c-1 0-2 1-2 2v10c0 1 1 2 2 2h12c1 0 2-1 2-2V7c0-1-1-2-2-2H6z"></path>
+                                </svg>
+                            </div>
+                            <p class="category-label">Sofas</p>
+                        </div>
+                    </a>
+                    <div class="category-card">
+                        <div class="category-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M15 2H9v4h6V2zM3 6h18v2H3zM3 10h18v10c0 1-1 2-2 2H5c-1 0-2-1-2-2V10z"></path>
+                            </svg>
+                        </div>
+                        <p class="category-label">Éclairage</p>
+                    </div>
+                    <a href="/sleeping-rooms.html" style="text-decoration: none; color: inherit;">
+                        <div class="category-card">
+                            <div class="category-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 5c-1 0-2 1-2 2v10c0 1 1 2 2 2h16c1 0 2-1 2-2V7c0-1-1-2-2-2H4z"></path>
+                                </svg>
+                            </div>
+                            <p class="category-label">Lits</p>
+                        </div>
+                    </a>
+                    <div class="category-card">
+                        <div class="category-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 3h16v18H4V3z"></path>
+                                <line x1="8" y1="7" x2="8" y2="17"></line>
+                                <line x1="12" y1="7" x2="12" y2="17"></line>
+                                <line x1="16" y1="7" x2="16" y2="17"></line>
+                            </svg>
+                        </div>
+                        <p class="category-label">Rangement</p>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2L6 8h12z"></path>
+                                <path d="M8 8h8v12c0 1-1 2-2 2H10c-1 0-2-1-2-2V8z"></path>
+                            </svg>
+                        </div>
+                        <p class="category-label">Décor</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section class="products" id="products">
+            <div class="container">
+                <h2 class="section-title">Nos Produits</h2>
+                <div class="section-title-divider"></div>
+
+                <div class="products-grid" id="productsGrid">
+                    <!-- Products will be loaded by JavaScript -->
+                </div>
+
+                <div class="products-footer">
+                    <p class="products-footer-text">Découvrez notre collection complète de meubles premium conçus pour transformer votre espace de vie.</p>
+                    <a href="/all-products.html">
+                        <button class="view-all-btn">Voir Tous les Produits</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section class="why-choose-us" id="about">
+            <div class="container">
+                <div style="text-align: center; margin-bottom: 3rem;">
+                    <h2 style="font-size: 2.25rem; font-weight: bold; color: var(--text-dark);">
+                        Nous <span style="color: var(--primary);">sommes là pour vous aider</span>
+                    </h2>
+                </div>
+
+                <div class="why-grid">
+                    <div class="why-card white-card">
+                        <h3 style="font-size: 1.25rem; font-weight: 600; color: var(--text-dark); margin-bottom: 0.75rem;">Solutions Complètes</h3>
+                        <p style="color: var(--text-light); font-size: 0.875rem; line-height: 1.6;">Nous gérons chaque aspect de votre projet d'ameublement, vous faisant gagner du temps et des ressources.</p>
+                        <div style="font-size: 3rem; color: var(--primary); margin-top: auto;">✦</div>
+                    </div>
+
+                    <div class="why-card white-card">
+                        <h3 style="font-size: 1.25rem; font-weight: 600; color: var(--text-dark); margin-bottom: 0.75rem;">Support Après-Vente</h3>
+                        <p style="color: var(--text-light); font-size: 0.875rem; line-height: 1.6;">Nous nous engageons à fournir un support continu et un service après-vente pour répondre à vos besoins.</p>
+                        <div style="font-size: 3rem; color: var(--primary); margin-top: auto;">◆</div>
+                    </div>
+
+                    <div class="why-card dark-card">
+                        <h3 style="font-size: 1.25rem; font-weight: 600; color: white; margin-bottom: 0.75rem;">Absence de Restrictions</h3>
+                        <p style="color: #f3f4f6; font-size: 0.875rem; line-height: 1.6;">Nous nous associons à tous les fournisseurs pour offrir la plus large sélection de solutions d'ameublement.</p>
+                    </div>
+
+                    <div class="why-card large-card" style="background-image: url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/modern-bedroom-furniture-set-pxXjpIrGkZQnmSu1E5wJP39OghOmj9.jpg');">
+                        <div style="position: absolute; inset: 0; background-color: rgba(0, 0, 0, 0.4);"></div>
+                        <div style="position: relative; z-index: 10; color: white;">
+                            <h3 style="font-size: 1.5rem; font-weight: 600; margin-bottom: 0.5rem;">Qualité Supérieure</h3>
+                            <p style="color: #f3f4f6; font-size: 0.875rem;">Nos partenariats avec les meilleurs fournisseurs nous donnent accès aux meilleurs matériaux et processus de contrôle qualité.</p>
+                        </div>
+                    </div>
+
+                    <div class="why-card dark-card">
+                        <h3 style="font-size: 1.25rem; font-weight: 600; color: white; margin-bottom: 0.75rem;">Mobilier Personnalisé</h3>
+                        <p style="color: #f3f4f6; font-size: 0.875rem; line-height: 1.6;">Nous spécialisons dans la création de meubles sur mesure qui correspondent parfaitement à votre vision unique et vos besoins.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="spacer"></div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Brand -->
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="footer-logo-icon">V</div>
+                        <span>Vola</span>
+                    </div>
+                    <p class="footer-text">Créer des expériences de meubles exceptionnelles pour les espaces de vie modernes.</p>
+                </div>
+
+                <!-- Links -->
+                <div class="footer-section">
+                    <h4 class="footer-title">Boutique</h4>
+                    <ul class="footer-links">
+                        <li><a href="/all-products.html">Tous les Produits</a></li>
+                        <li><a href="#">Nouveautés</a></li>
+                        <li><a href="#">Soldes</a></li>
+                    </ul>
+                </div>
+
+                <!-- Company -->
+                <div class="footer-section">
+                    <h4 class="footer-title">Entreprise</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">À Propos</a></li>
+                        <li><a href="#">Notre Processus</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div class="footer-section">
+                    <h4 class="footer-title">Contact</h4>
+                    <ul class="footer-links">
+                        <li>✉ <a href="mailto:hello@volafurniture.com">hello@volafurniture.com</a></li>
+                        <li>+213 (0) 123-4567</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2025 X Furniture. All rights reserved.</p>
+
+                <!-- Social Links -->
+                <div class="social-links">
+                    <a href="#" class="social-link">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="currentColor" stroke-width="2"></rect>
+                            <path d="M12 8a4 4 0 110 8 4 4 0 010-8z" fill="none" stroke="currentColor" stroke-width="2"></path>
+                            <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor"></circle>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2s9 5 20 5a9.5 9.5 0 00-9-5.5c4.75 2.25 7-7 7-7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

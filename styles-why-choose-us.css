@@ -1,0 +1,64 @@
+/* Add to styles.css */
+
+.why-choose-us {
+  padding: 4rem 1.5rem;
+  background-color: var(--light-bg);
+}
+
+@media (min-width: 768px) {
+  .why-choose-us {
+    padding: 6rem 1.5rem;
+  }
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .why-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.why-card {
+  border-radius: 1.5rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 16rem;
+  transition: all 0.3s ease;
+}
+
+.why-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-0.25rem);
+}
+
+.why-card.white-card {
+  background-color: white;
+  color: var(--text-dark);
+}
+
+.why-card.dark-card {
+  background-color: #5a4a3a;
+  color: white;
+}
+
+.why-card.large-card {
+  grid-column: span 1;
+  height: 20rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .why-card.large-card {
+    grid-column: span 2;
+  }
+}
