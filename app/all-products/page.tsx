@@ -119,18 +119,13 @@ const categories = [
 export default function AllProductsPage() {
   const [selectedCategory, setSelectedCategory] = useState("all")
 
-  // Shuffle products randomly on mount
-  const shuffledProducts = useMemo(() => {
-    return [...allProducts].sort(() => Math.random() - 0.5)
-  }, [])
-
   // Filter products based on selected category
   const filteredProducts = useMemo(() => {
     if (selectedCategory === "all") {
-      return shuffledProducts
+      return allProducts
     }
-    return shuffledProducts.filter((product) => product.category === selectedCategory)
-  }, [selectedCategory, shuffledProducts])
+    return allProducts.filter((product) => product.category === selectedCategory)
+  }, [selectedCategory])
 
   return (
     <>
